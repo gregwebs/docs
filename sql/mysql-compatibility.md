@@ -22,7 +22,7 @@ However, in TiDB, the following MySQL features are not supported for the time be
 + `FOREIGN KEY` constraints
 + `FULLTEXT` indexes
 + `SPATIAL` indexes
-+ Character sets other than `utf8`
++ Character sets other than `utf8mb4` or its alias `utf8`. See Default Differences below.
 + Add primary key
 + Drop primary key
 + SYS schema
